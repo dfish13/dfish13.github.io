@@ -7,9 +7,9 @@ categories: blog
 ### 2013 - 2014
 At the end of my junior year of high school they gathered a limited group of students (not sure how they determined who got to be in the group) to discuss a new course offering, AP computer science. I was intrigued though really not sure what computer science was, even after this meeting. I had a vague notion of what programming was but no one in my life was a programmer or software engineer so I had not really been exposed to it. Nevertheless, I signed up for the class.
 
-Most of the work we did in the class revolved around Karl J Robot. Big daddy Karl was a robot that lived on a grid and you controlled Karl’s movements by calling functions like turnLeft, turnRight, and moveForward. Karl J was supposed to be an easy introduction to object oriented programming but I remember being very confused about how Karl actually worked. Not how to move Karl around the grid. That was painfully easy. But how did Karl’s image and the grid get rendered on the screen? What was happening when you called the function moveForward and how was that connected to the Karl J sprite? Where was Karl’s current state stored? I didn’t even know enough about object oriented programming to formulate these questions. If we had dived into these topics I would have been much more interested but my conception of programming was that I could make Karl move around the grid and not much else, which seemed pretty useless.
+Most of the work we did in the class revolved around [Karel J Robot][karel-j]. Big daddy Karel (pronounced Karl) was a robot that lived on a grid and you controlled Karel’s movements by calling functions like turnLeft, turnRight, and moveForward. Karel J was supposed to be an easy introduction to object oriented programming but I remember being very confused about how Karel actually worked. Not how to move Karel around the grid. That was painfully easy. But how did Karel’s image and the grid get rendered on the screen? What was happening when you called the function moveForward and how was that connected to the Karel J sprite? Where was Karel’s current state stored? I didn’t even know enough about object oriented programming to formulate these questions. If we had dived into these topics I would have been much more interested but my conception of programming was that I could make Karel move around the grid and not much else, which seemed pretty useless.
 
-One exercise we did that was unrelated to Mr. Karl J Robot was taking an integer and printing the individual digits (not sure what order so lets say from least to most significant). At the time I thought this was a pretty tough challenge but I was able to solve it. Today my solution would look something like this.
+One exercise we did that was unrelated to Mr. Karel J Robot was taking an integer and printing the individual digits (not sure what order so lets say from least to most significant). At the time I thought this was a pretty tough challenge but I was able to solve it. Today my solution would look something like this.
 
 ```java
 import java.util.Scanner;
@@ -54,6 +54,10 @@ I wish I could say that as a result of this class I fell in love with programmin
 
 In the weeks before the AP exam it became clear that I was woefully underprepared and I remember I spent one or two evenings just reading the textbook straight through without doing any exercises. This is absolutely not the best way to learn but I will say it was eye opening to read the text book for the first time and this was maybe my first glimpse at what programming actually was. I can recall coming back to my classmates after my long foray into the fundamentals of Java programming and claiming the programming was actually super interesting and amazing. To be clear we had not used the text book at all.
 
+On the day of the AP exam I felt unprepared, because I was, and I remember the test being difficult but not absurdly so. I don’t think the coding questions were difficult but it was hard for me to answer some multiple choice questions because I simply had not learned the relevant topics. Sadly, I got a 4 on the exam.
+
 That pretty much sums up my first year of programming! A bit underwhelming, I know. But very soon fledgling (/ˈflejliNG/ noun - a young bird that had just fledged.) Duncan would discover how awesome programming actually is 😁. 
 
 To be continued...
+
+[karel-j]: https://csis.pace.edu/~bergin/KarelJava2ed/Karel++JavaEdition.html
